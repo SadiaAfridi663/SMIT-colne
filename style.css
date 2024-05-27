@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: lightgray;
+}
+
+.top-bar ul {
+    cursor: pointer;
+    list-style: none;
+}
+
+.top-bar ul li {
+    margin-left: 15px;
+}
+
+.top-bar ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar ul li {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 2px solid #8dc63f;
+    color: #0d6db7;
+}
+
+.welcom-container {
+    background-image: url(./images/carousal_background.d77d94e41c5a71ae581f.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+h1>span {
+    color: #8dc63f;
+}
+
+.donation {
+    background-color: #d6f9c5;
+    border-radius: 10px;
+}
+
+.donation-amount {
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.donation-amount [type="number"] {
+    height: 50px;
+    background-color: #ffffff;
+}
+
+.nav-btn button {
+    border-radius: 5px;
+    width: 170px;
+    height: 60px;
+}
+
+.donation p {
+    background-color: #ffffff;
+    height: 50px;
+    width: 150px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.donation p:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: background-color 1.5s ease-out;
+    cursor: pointer;
+}
+.donate-btn{
+    width: 150px;
+}
+.donate-btn:hover {
+    transform: scale(1.1);
+    transition: background-color 1.5s ease-out;
+    cursor: pointer;
+}
+
+.service-box {
+    background-color: #d6f9c5;
+    border-radius: 10px;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+    transition: background-color 1.5s ease-out;
+    cursor: pointer;
+}
+.fundbox{
+    position: relative; 
+    z-index: 15;
+     
+}
+.fundbox h5 {
+    position: absolute;
+    bottom: 40px;
+    z-index: 5;
+    color: #ffffff;
+}
+.fundbox button {
+    position: absolute;
+   
+    bottom: 10px;
+    z-index: 10;
+    
+    width: 90%;
+    
+}
+
+.fundbox:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.saylani-services img {
+    border-top-left-radius: 50px;
+}
+
+.saylani-services {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 318px;
+    height: 239px;
+    padding: 35px;
+    color: #ffffff;
+    background-color: #8dc63f;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.right-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 318px;
+    height: 238px;
+    padding: 35px;
+    border: 1px solid #ffffff;
+}
+
+.projects span {
+    color: #3072f8;
+}
+
+.services {
+    background-image: linear-gradient(rgba(0, 83, 156, 0.7), rgba(2, 82, 143, 0.7)), url(./images/bg-image-footer1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-img {
+    width: 120px;
+    margin: auto;
+}
+
+.contact {
+    background-image: url(./images/bg-image-form.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0d6db7;
+}
+
+.contact [type="email"] {
+    width: 400px;
+    margin: auto;
+    height: 50px;
+    background: transparent;
+    color: #ffffff;
+}
+
+.contact button {
+    width: 400px;
+    margin: auto;
+    height: 50px;
+}
+
+.contact button:hover {
+    color: #000000;
+}
+
+footer {
+    background-image: linear-gradient(rgba(61, 60, 60, 0.7), rgba(61, 60, 60, 0.7)), url(./images/bg-image-footer1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer_about ul,
+.footer-explor ul {
+    list-style: none;
+}
+
+.footer_about ul li a,
+.footer-explor ul li a {
+    color: white;
+    text-decoration: none;
+}
